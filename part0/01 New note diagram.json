@@ -1,0 +1,16 @@
+[
+  {
+    "state": {
+      "code": "flowchart TD\n    A[User types in the text field] --> B[User clicks the Save button]\n    B --> C[Browser sends POST request to server with new note data]\n    C --> D[Server processes the new note and stores it]\n    D --> E[Server responds with updated data or confirmation]\n    E --> F[Browser updates the page with the new note displayed]\n\n    %% Optional comments to explain steps\n    %% The text entered by the user is included in the POST request.\n    %% The server returns either a success message or the new list of notes.\n",
+      "mermaid": "{\n  \"theme\": \"dark\"\n}",
+      "autoSync": true,
+      "rough": false,
+      "updateDiagram": false,
+      "panZoom": false
+    },
+    "time": 1737206183507,
+    "type": "manual",
+    "id": "738601d9-3846-4d9c-80f6-2b83cf771390",
+    "name": "stocky-cat"
+  }
+]

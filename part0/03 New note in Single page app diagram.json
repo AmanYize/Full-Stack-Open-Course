@@ -1,0 +1,128 @@
+[
+  {
+    "state": {
+      "code": "flowchart TD\n    A[User opens the SPA URL] --> B[Browser requests the HTML document]\n    B --> C[Server responds with the HTML document]\n    C --> D[Browser loads the page and executes the initial JavaScript code]\n    D --> E[Browser requests the CSS file main.css]\n    E --> F[Server responds with the CSS file]\n    F --> G[Browser applies CSS styles]\n    G --> H[Browser requests the JavaScript file main.js]\n    H --> I[Server responds with the JavaScript file]\n    I --> J[Browser executes the JavaScript code]\n    J --> K[JavaScript fetches the JSON data from the server]\n    K --> L[Browser sends GET request to fetch notes data data.json]\n    L --> M[Server responds with the JSON data list of notes]\n    M --> N[Browser renders the notes and updates the page]\n    \n    %% User interaction for creating a new note\n    N --> O[User writes a new note in the text field]\n    O --> P[User clicks the Save button]\n    P --> Q[JavaScript sends POST request to save the new note to the server]\n    Q --> R[Server saves the new note and responds with success]\n    R --> S[Browser updates the notes list with the new note]\n    S --> T[Browser re-renders the updated notes list on the page]\n\n",
+      "mermaid": "{\n  \"theme\": \"dark\"\n}",
+      "autoSync": true,
+      "rough": false,
+      "updateDiagram": false,
+      "panZoom": false
+    },
+    "time": 1737208383946,
+    "type": "manual",
+    "id": "14735d1a-b063-4d3f-813f-135e7606ad8c",
+    "name": "low-agency"
+  },
+  {
+    "state": {
+      "code": "flowchart TD\n    A[User opens the SPA URL] --> B[Browser requests the HTML document]\n    B --> C[Server responds with the HTML document]\n    C --> D[Browser loads the page and executes the initial JavaScript code]\n    D --> E[Browser requests the CSS file main.css]\n    E --> F[Server responds with the CSS file]\n    F --> G[Browser applies CSS styles]\n    G --> H[Browser requests the JavaScript file main.js]\n    H --> I[Server responds with the JavaScript file]\n    I --> J[Browser executes the JavaScript code]\n    J --> K[JavaScript fetches the JSON data from the server]\n    K --> L[Browser sends GET request to fetch notes data data.json]\n    L --> M[Server responds with the JSON data list of notes]\n    M --> N[Browser renders the notes and updates the page]\n\n",
+      "mermaid": "{\n  \"theme\": \"dark\"\n}",
+      "autoSync": true,
+      "rough": false,
+      "updateDiagram": true,
+      "panZoom": false
+    },
+    "time": 1737208258199,
+    "type": "auto",
+    "id": "af8c3107-bcfe-4bc4-abc7-ae7cf21943c4",
+    "name": "fluffy-fireman"
+  },
+  {
+    "state": {
+      "code": "flowchart TD\n    A[User opens the SPA URL] --> B[Browser requests the HTML document]\n    B --> C[Server responds with the HTML document]\n    C --> D[Browser loads the page and executes the initial JavaScript code]\n    D --> E[Browser requests the CSS file main.css]\n    E --> F[Server responds with the CSS file]\n    F --> G[Browser applies CSS styles]\n    G --> H[Browser requests the JavaScript file main.js]\n    H --> I[Server responds with the JavaScript file]\n    I --> J[Browser executes the JavaScript code]\n    J --> K[JavaScript fetches the JSON data from the server]\n    K --> L[Browser sends GET request to fetch notes data data.json]\n    L --> M[Server responds with the JSON data list of notes]\n    M --> N[Browser renders the notes and updates the page]\n\n",
+      "mermaid": "{\n  \"theme\": \"dark\"\n}",
+      "autoSync": true,
+      "rough": false,
+      "updateDiagram": true,
+      "panZoom": false
+    },
+    "time": 1737208233511,
+    "type": "manual",
+    "id": "a0f45fee-8c0a-4095-afd7-612bc078620d",
+    "name": "angry-waitress"
+  },
+  {
+    "state": {
+      "code": "flowchart TD\n    A[User opens the SPA URL] --> B[Browser requests the HTML document]\n    B --> C[Server responds with the HTML document]\n    C --> D[Browser loads the page and executes the initial JavaScript code]\n    D --> E[Browser requests the CSS file (main.css)]\n    E --> F[Server responds with the CSS file]\n    F --> G[Browser applies CSS styles]\n    G --> H[Browser requests the JavaScript file (main.js)]\n    H --> I[Server responds with the JavaScript file]\n    I --> J[Browser executes the JavaScript code]\n    J --> K[JavaScript fetches the JSON data from the server]\n    K --> L[Browser sends GET request to fetch notes data (data.json)]\n    L --> M[Server responds with the JSON data (list of notes)]\n    M --> N[Browser renders the notes and updates the page]\n\n    %% The SPA does not reload the entire page but updates content dynamically.\n    %% JavaScript handles rendering the notes on the page using the fetched JSON data.\n",
+      "mermaid": "{\n  \"theme\": \"dark\"\n}",
+      "autoSync": true,
+      "rough": false,
+      "updateDiagram": true,
+      "panZoom": false
+    },
+    "time": 1737208198170,
+    "type": "auto",
+    "id": "6192199f-a01b-4f09-ac9d-8497d29f690f",
+    "name": "full-branch"
+  },
+  {
+    "state": {
+      "code": "flowchart TD\n    A[User opens the SPA URL] --> B[Browser requests the HTML document]\n    B --> C[Server responds with the HTML document]\n    C --> D[Browser loads the page and executes the initial JavaScript code]\n    D --> E[Browser requests the CSS file (main.css)]\n    E --> F[Server responds with the CSS file]\n    F --> G[Browser applies CSS styles]\n    G --> H[Browser requests the JavaScript file (main.js)]\n    H --> I[Server responds with the JavaScript file]\n    I --> J[Browser executes the JavaScript code]\n    J --> K[JavaScript fetches the JSON data from the server]\n    K --> L[Browser sends GET request to fetch notes data (data.json)]\n    L --> M[Server responds with the JSON data (list of notes)]\n    M --> N[Browser renders the notes and updates the page]\n\n    %% The SPA does not reload the entire page but updates content dynamically.\n    %% JavaScript handles rendering the notes on the page using the fetched JSON data.\n",
+      "mermaid": "{\n  \"theme\": \"dark\"\n}",
+      "autoSync": true,
+      "rough": false,
+      "updateDiagram": false,
+      "panZoom": false
+    },
+    "time": 1737208125005,
+    "type": "auto",
+    "id": "8d790075-5911-42c1-b090-dc56a6fce954",
+    "name": "fat-fall"
+  },
+  {
+    "state": {
+      "code": "flowchart TD\n    A[User opens the SPA URL] --> B[Browser requests the HTML document]\n    B --> C[Server responds with the HTML document]\n    C --> D[Browser loads the page and executes the initial JavaScript code]\n    D --> E[Browser requests the CSS file (main.css)]\n    E --> F[Server responds with the CSS file]\n    F --> G[Browser applies CSS styles]\n    G --> H[Browser requests the JavaScript file (main.js)]\n    H --> I[Server responds with the JavaScript file]\n    I --> J[Browser executes the JavaScript code]\n    J --> K[JavaScript fetches the JSON data from the server]\n    K --> L[Browser sends GET request to fetch notes data (data.json)]\n    L --> M[Server responds with the JSON data (list of notes)]\n    M --> N[Browser renders the notes and updates the page]\n",
+      "mermaid": "{\n  \"theme\": \"dark\"\n}",
+      "autoSync": true,
+      "rough": false,
+      "updateDiagram": false,
+      "panZoom": false
+    },
+    "time": 1737208026851,
+    "type": "manual",
+    "id": "13522a53-fcb7-46dc-bfe1-329574e44cf1",
+    "name": "mealy-appointment"
+  },
+  {
+    "state": {
+      "code": "flowchart TD\n    A[User opens the SPA URL] --> B[Browser requests the HTML document]\n    B --> C[Server responds with the HTML document]\n    C --> D[Browser loads the page and executes the initial JavaScript code]\n    D --> E[Browser requests the CSS file (main.css)]\n    E --> F[Server responds with the CSS file]\n    F --> G[Browser applies CSS styles]\n    G --> H[Browser requests the JavaScript file (main.js)]\n    H --> I[Server responds with the JavaScript file]\n    I --> J[Browser executes the JavaScript code]\n    J --> K[JavaScript fetches the JSON data from the server]\n    K --> L[Browser sends GET request to fetch notes data (data.json)]\n    L --> M[Server responds with the JSON data (list of notes)]\n    M --> N[Browser renders the notes and updates the page]\n\n    %% Optional comments to explain steps\n    %% The SPA does not reload the entire page but updates content dynamically.\n    %% JavaScript handles rendering the notes on the page using the fetched JSON data.\n",
+      "mermaid": "{\n  \"theme\": \"dark\"\n}",
+      "autoSync": true,
+      "rough": false,
+      "updateDiagram": false,
+      "panZoom": false
+    },
+    "time": 1737208005192,
+    "type": "auto",
+    "id": "ee41e3be-0f67-44d7-9d24-24a799509b83",
+    "name": "fresh-hair"
+  },
+  {
+    "state": {
+      "code": "flowchart TD\n    A[User types in the text field] --> B[User clicks the Save button]\n    B --> C[Browser sends POST request to server with new note data]\n    C --> D[Server processes the new note and stores it]\n    D --> E[Server responds with updated data or confirmation]\n    E --> F[Browser updates the page with the new note displayed]\n\n    %% Optional comments to explain steps\n    %% The text entered by the user is included in the POST request.\n    %% The server returns either a success message or the new list of notes.\n",
+      "mermaid": "{\n  \"theme\": \"dark\"\n}",
+      "autoSync": true,
+      "rough": false,
+      "updateDiagram": false,
+      "panZoom": false
+    },
+    "time": 1737206205191,
+    "type": "auto",
+    "id": "b2d01d1f-f37c-4b68-83a1-821e71080f6d",
+    "name": "squeaking-microphone"
+  },
+  {
+    "state": {
+      "code": "flowchart TD\n    A[User types in the text field] --> B[User clicks the Save button]\n    B --> C[Browser sends POST request to server with new note data]\n    C --> D[Server processes the new note and stores it]\n    D --> E[Server responds with updated data or confirmation]\n    E --> F[Browser updates the page with the new note displayed]\n\n    %% Optional comments to explain steps\n    %% The text entered by the user is included in the POST request.\n    %% The server returns either a success message or the new list of notes.\n",
+      "mermaid": "{\n  \"theme\": \"dark\"\n}",
+      "autoSync": true,
+      "rough": false,
+      "updateDiagram": false,
+      "panZoom": false
+    },
+    "time": 1737206183507,
+    "type": "manual",
+    "id": "738601d9-3846-4d9c-80f6-2b83cf771390",
+    "name": "stocky-cat"
+  }
+]
